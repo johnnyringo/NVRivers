@@ -169,8 +169,8 @@ export default function LoginPage() {
                 }}
               >
                 Sign up
-              </Link>*/}
-            </div>
+              </Link>
+            </div>*/}
           </div>
         </Form>
       </div>
