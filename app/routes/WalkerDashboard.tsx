@@ -1,9 +1,6 @@
 import { useLoaderData } from "@remix-run/react";
 import moment  from "moment";
 import { Chart } from "react-google-charts";
-
-
-import { useOptionalUser } from "~/utils";
 import axios from "axios";
 
 
@@ -60,7 +57,6 @@ return {resultSort, nevada};
 
 export default function Index() {
   const lakeData = useLoaderData<typeof loader>();
-  const user = useOptionalUser();
   return (
 
     <main className="pt-5 pb-5 pr-4 min-h-screen bg-slate-500 text-center md:grid md:grid-cols-4 flex justify-center ">
@@ -119,13 +115,13 @@ export default function Index() {
 </div>
 <div className="bg-white rounded-lg p-6 shadow-md">
   <h3 className="text-lg font-medium mb-2">Walker Basin Snow Pack Information</h3>
-  {lakeData.nevada.map((sno: { id: any; name: any; text: any; }) => (
+  {lakeData.nevada.map((sno) => (
     <div key={sno.id}><p>{sno.name}: {sno.text} inches</p> </div>
   ))}
 </div>
 <div className="bg-white rounded-lg p-6 shadow-md">
   <h3 className="text-lg font-medium mb-2">NOAA Weather Brief</h3>
-  <a href="https://www.weather.gov/images/rev/WxStory/WeatherStory1.png?c3cba607fc51cfff852684ebb15328cc"><img src="https://www.weather.gov/images/rev/WxStory/WeatherStory1.png?c3cba607fc51cfff852684ebb15328cc" alt="Weather Story Picture"></img></a>
+  <a href="https://www.weather.gov/images/rev/WxStory/WeatherStory1.png?c3cba607fc51cfff852684ebb15328cc"><img src="https://www.weather.gov/images/rev/WxStory/WeatherStory1.png?c3cba607fc51cfff852684ebb15328cc" alt={"Weather Story Picture"}></img></a>
 
 </div>
 <div className="bg-white rounded-lg p-6 shadow-md">
