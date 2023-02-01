@@ -115,17 +115,17 @@ export default function Index() {
         <div className="bg-white rounded-lg p-6 shadow-md">
         
   <h3 className="text-lg font-medium mb-2">Walker River Basin Map</h3>
-  <img src="https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/side_image/public/thumbnails/image/walker.png?itok=c3-H1yy4"></img>
+  <img src="https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/side_image/public/thumbnails/image/walker.png?itok=c3-H1yy4" alt="Walker River Basin Map"></img>
 </div>
 <div className="bg-white rounded-lg p-6 shadow-md">
   <h3 className="text-lg font-medium mb-2">Walker Basin Snow Pack Information</h3>
-  {lakeData.nevada.map((sno: { id: string; name: string; text: string; }) => (
-    <p>{sno.name}: {sno.text} inches</p>
+  {lakeData.nevada.map((sno: { id: any; name: any; text: any; }) => (
+    <div key={sno.id}><p>{sno.name}: {sno.text} inches</p> </div>
   ))}
 </div>
 <div className="bg-white rounded-lg p-6 shadow-md">
   <h3 className="text-lg font-medium mb-2">NOAA Weather Brief</h3>
-  <a href="https://www.weather.gov/images/rev/WxStory/WeatherStory1.png?c3cba607fc51cfff852684ebb15328cc"><img src="https://www.weather.gov/images/rev/WxStory/WeatherStory1.png?c3cba607fc51cfff852684ebb15328cc"></img></a>
+  <a href="https://www.weather.gov/images/rev/WxStory/WeatherStory1.png?c3cba607fc51cfff852684ebb15328cc"><img src="https://www.weather.gov/images/rev/WxStory/WeatherStory1.png?c3cba607fc51cfff852684ebb15328cc" alt="Weather Story Picture"></img></a>
 
 </div>
 <div className="bg-white rounded-lg p-6 shadow-md">

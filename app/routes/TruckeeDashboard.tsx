@@ -116,7 +116,7 @@ export default function Index() {
         <div className="bg-white rounded-lg p-6 shadow-md">
         
   <h3 className="text-lg font-medium mb-2">Truckee Basin Map</h3>
-  <img src="https://cdn.imgbin.com/12/15/24/imgbin-truckee-river-map-great-basin-truckee-meadows-map-xSQpZGCPXHkd1f4a4xBPjg8Fg.jpg"></img>
+  <img src="https://cdn.imgbin.com/12/15/24/imgbin-truckee-river-map-great-basin-truckee-meadows-map-xSQpZGCPXHkd1f4a4xBPjg8Fg.jpg" alt={"Truckee Water Basin Map"}/>
 </div>
 <div className="bg-white rounded-lg p-6 shadow-md">
   <h3 className="text-lg font-medium mb-2">Truckee Basin Snow Pack Information</h3>
