@@ -54,7 +54,7 @@ export default function Nav() {
       <div className="flex justify-end">
       <a href="/account">
           <button className="bg-transparent">
-            <img className="w-8 h-8 rounded-full" src="https://www.projectfansler.com/wp-content/uploads/2020/10/image-300x300.jpeg" className="w-8 h-8 rounded-full" alt="Avatar" />
+            <img src="https://www.projectfansler.com/wp-content/uploads/2020/10/image-300x300.jpeg" className="w-8 h-8 rounded-full" alt="Avatar" />
             
           </button>
           </a>
