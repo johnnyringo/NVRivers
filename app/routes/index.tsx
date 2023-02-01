@@ -24,7 +24,6 @@ export default function Index() {
                   N.NV Rivers
                 </span>
               </h1>
-              
               <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                 {user ? (
                   <Link
@@ -35,12 +34,12 @@ export default function Index() {
                   </Link>
                 ) : (
                   <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
-                    <Link
+                    {/* <Link
                       to="/join"
                       className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-yellow-700 shadow-sm hover:bg-yellow-50 sm:px-8"
                     >
                       Sign up
-                    </Link>
+                </Link> */}
                     <Link
                       to="/login"
                       className="flex items-center justify-center rounded-md bg-yellow-500 px-4 py-3 font-medium text-white hover:bg-yellow-600"
