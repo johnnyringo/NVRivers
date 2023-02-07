@@ -8,7 +8,7 @@ export default function Index() {
   <div className="max-w-xl rounded overflow-hidden shadow-lg justify-center">
   <img className="w-full" src="https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
-    <div className="font-bold text-xl mb-2">Welcome, {user.email}</div>
+    <div className="font-bold text-xl mb-2">Welcome, </div>
     <form className="w-full max-w-lg">
     <div className="flex flex-wrap -mx-3 mb-6">
       <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -22,7 +22,7 @@ export default function Index() {
         <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-last-name">
           Email
         </label>
-        <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder={user.email}/>
+        <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder=''/>
       </div>
     </div>
     <div className="flex flex-wrap -mx-3 mb-6">
