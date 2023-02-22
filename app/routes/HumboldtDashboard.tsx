@@ -128,7 +128,8 @@ export default function Index() {
 </div>
 <div className="bg-white rounded-lg p-6 shadow-md">
   <h3 className="text-lg font-medium mb-2">Links</h3>
-  <p className="text-gray-600 mb-4"><a href="https://www.nrcs.usda.gov/Internet/WCIS/AWS_PLOTS/basinCharts/POR/WTEQ/assocHUCnv_8/carson.html">SNOTEL Carson Basin Graph</a></p>
+  <p className="text-gray-600 mb-4"><a href="https://www.nrcs.usda.gov/Internet/WCIS/AWS_PLOTS/basinCharts/POR/WTEQ/assocHUCnv_8/upper_humboldt.html">SNOTEL Upper Humboldt Graph</a></p>
+  <p className="text-gray-600 mb-4"><a href="https://www.nrcs.usda.gov/Internet/WCIS/AWS_PLOTS/basinCharts/POR/WTEQ/assocHUCnv_8/lower_humboldt.html">SNOTEL Lower Humboldt Graph</a></p>
   <p className="text-gray-600 mb-4"><a href="https://www.cwsd.org/flood-risk-mitigation-projects/">Flood Hazard Reduction Plans and Documents</a></p>
 </div>
 </div>

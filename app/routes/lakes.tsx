@@ -2,6 +2,7 @@ import { useLoaderData } from "@remix-run/react";
 import moment  from "moment";
 import { Chart } from "react-google-charts";
 import axios from "axios";
+import { error } from "node:console";
 
 
 export async function loader() {
@@ -17,8 +18,8 @@ export async function loader() {
       const urlData = await url.json();
       const floodData = await flood.json();
       const allData = _.merge(urlData, floodData);
-      return allData
-  }
+      return allData }
+
   const monitors = [{id: "615", name: "Marlette Lake", loc: "NV"}, {id: "518", name: "Heavenly Valley", loc: "CA"}, {id: "462", name: "Ebbetts Pass", loc: "CA"}, {id: "1050", name: "Horse Meadow", loc: "CA"},
   {id: "1067", name: "Carson Pass", loc: "CA"}, {id: "633", name: "Monitor Pass", loc: "CA"}, {id: "1051", name: "Burnside Lake", loc: "CA"},{id: "356", name: "Blue Lakes", loc: "CA"},
   {id: "1049", name: "Forestdale Creek", loc: "CA"}, {id: "508", name: "Hagans Meadow", loc: "CA"}, {id: "697", name: "Poison Flat", loc: "CA"}, {id: "778", name: "Spratt Creek", loc: "CA"}];
