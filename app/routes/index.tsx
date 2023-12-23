@@ -57,7 +57,7 @@ export default function Index() {
               {
                 src: "https://www.pitandquarry.com/wp-content/uploads/2016/05/usgs-logo-green.jpg",
                 alt: "USGS",
-                href: "https://fly.io",
+                href: "https://www.usgs.gov",
               },
               
             ].map((img) => (
